@@ -1,0 +1,88 @@
+/*CUSTOM FONTS*/
+@font-face{
+	font-family: 'ProximaNova';
+	src:url(../fonts/proxima-nova-bold.otf);
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: 'ProximaNova';
+	src:url(../fonts/proxima-nova-regular.otf);
+	font-weight: normal;
+}
+/*END CUSTOM FONTS*/
+body{
+	background: #291F5B;
+	color: #fff;
+	font-family: 'ProximaNova';
+	font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'ProximaNova';
+	font-weight: bold;
+}
+
+#logo{
+	width: 150px;
+}
+
+.hero{
+	background-image: url(../img/fondo_landing.png);
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.hero__logo{
+	width: 150px;
+}
+
+.hero__top{
+	margin-top: 1em;
+}
+
+.hero__content{
+	margin-top: 10em;
+	margin-bottom: 10em;
+}
+
+.hero__nav ul{
+	color:#fff;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.hero__nav ul li{
+	margin-left: 20px;
+}
+
+.hero__nav ul a{
+	color: #fff;
+}
+
+.hero__instructor{
+	font-weight: normal;
+	opacity: 0.5;
+}
+
+.hero__course{
+	padding: 10px;
+	color: #fff;
+	background: #4A5CFF;
+	text-align: center;
+	width: 150px;
+}
+
+.hero__explore{
+	color: #fff;
+	padding: 10px;
+	border:solid 1px #fff;
+	width: 150px;
+	text-align: center;
+	margin-left: 40px;
+}
