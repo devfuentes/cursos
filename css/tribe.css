@@ -220,3 +220,25 @@ footer a{
 	margin-right: 10px;
 }
 
+
+
+/*RESPONSIVE*/
+
+/*@media screen and (max-width: 1024px) { }
+
+@media screen and (max-width: 768px) { }*/
+
+@media screen and (max-width: 480px) {
+	.hero__content{
+		margin-left:1em;
+	}
+	.hero__explore,.hero__course{
+		width: 200px;
+	}
+
+	.hero__explore{
+		margin:15px 0 0 0;
+	}
+ }
+
+/*@media screen and (max-width: 320px) { }*/
