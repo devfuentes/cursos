@@ -12,11 +12,16 @@
 }
 /*END CUSTOM FONTS*/
 body{
-	background: #291F5B;
-	color: #fff;
 	font-family: 'ProximaNova';
 	font-weight: normal;
 }
+
+.full_background{
+	background: #291F5B;
+	color:#fff;
+}
+
+
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'ProximaNova';
@@ -26,6 +31,7 @@ h1,h2,h3,h4,h5,h6{
 #logo{
 	width: 150px;
 }
+
 
 .hero{
 	background-image: url(../img/fondo_landing.png);
@@ -219,6 +225,52 @@ footer a{
 	color: #fff;
 	margin-right: 10px;
 }
+
+/*LOGIN FORM*/
+
+.login{
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+
+.login__form{
+	width: 100%;
+}
+
+.login__form input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 1em;
+	font-size: 14px;
+	padding: 10px;
+	border:solid 1px #291F5B;
+	border-radius: 10px 10px;
+}
+
+.login__form input[type="submit"]{
+	background: #4A5CFF;
+	color: #fff;
+	border-radius: 10px 10px;
+	border: none;
+}
+
+.login__link{ 
+	width: 100%;
+	border-radius: 10px 10px;
+	padding: 10px;
+	margin-bottom: 1em;
+	color: #fff;
+
+}
+
+.login__facebook{
+	background: #334E8E;
+}
+
+.login__twitter{
+	background: #559FD9;
+}
+
 
 
 
