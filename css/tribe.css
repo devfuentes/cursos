@@ -271,8 +271,19 @@ footer a{
 	background: #559FD9;
 }
 
+/*
+PROFILE
+*/
 
+.profile__nav a{
+	margin-right: 25px;
+	color:#fff;
+}
 
+.profile__nav--line{
+	padding-right:20px;
+	border-right: solid 1px #fff;
+}
 
 /*RESPONSIVE*/
 
