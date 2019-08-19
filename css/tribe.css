@@ -280,6 +280,69 @@ PROFILE
 	color:#fff;
 }
 
+.currentCourse__card{
+	width: 100%;
+	height: 250px;
+	background-image: url(../img/thumbnails/emprendimiento.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+
+.currentCourse__card::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	background: rgba(0,0,0,.7);
+	background-blend-mode: multiply;
+
+}
+
+.currentCourse__top{
+	width: 100%;
+	position: absolute;
+	top: 5px;
+	color: #fff;
+	z-index:1;
+	padding: 10px;
+	text-transform: uppercase
+}
+
+.currentCourse__title{
+	margin: 0;
+	padding-top: 0;
+}
+
+.currentCourse__top p{
+	margin-bottom: 10px;
+}
+
+.currentCourse__bottom{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	z-index:1;
+	padding:  0 10px 0 10px;
+	text-transform: uppercase
+}
+
+.currentCourse__teacher{
+	margin-top: 5px;
+	opacity: 0.5;
+}
+
+.currentCourse__progress{
+	width: 100%;
+	height: 3px;
+	background: gray;
+}
+
+
+
 .profile__nav--line{
 	padding-right:20px;
 	border-right: solid 1px #fff;
